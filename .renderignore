@@ -1,6 +1,0 @@
-node_modules
-src
-*.ts
-jest.config.js
-tsconfig.json
-tests
