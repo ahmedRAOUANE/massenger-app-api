@@ -1,0 +1,51 @@
+!INSTRUCTIONS:
+- This file is used to track the progress of tasks in a project.
+- the highlighted sections are to be filled out with the current status of tasks.
+- this is a list of all section names: DONE/FIXED | DONE | FIXED | TODO | ONGOING | DESCRIPTION | INSTRUCTIONS
+- under each section, list the tasks with a brief description.
+- use Feature for new functionalities, Test for testing tasks, Issue for bugs or problems.
+
+DONE:
+- Feature: brief description
+
+ONGOING:
+- 
+
+DONE/FIXED:
+- 
+
+TODO:
+- Feature: complete reject friend request endpoint
+- Feature: add onboarding endpoint
+- Feature: add block users
+
+DATASTRUCTURE
+MESSAGES = {
+    fetch: {
+        user: {
+            notFound: "...",
+            failed: "..."
+        },
+    },
+    validation: {
+        password: {
+            notFound: "...",
+            invalid: "...",
+        }, 
+        email: {
+            notFound: "...",
+            invalid: "...",
+        },
+        userName: {
+            notFound: "...",
+            invalid: "...",
+        },
+        userId: {
+            notFound: "...",
+            invalid: "...",
+        },
+    },
+    error: {
+        server: "..."
+    }
+}
